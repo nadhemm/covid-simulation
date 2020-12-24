@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1608686674 source:/home/nadhem/Desktop/C-Project/c-project/main.c
+	<stdio.h>
+	<stdbool.h>
+	"affichage.c"
+
+1608688976 /home/nadhem/Desktop/C-Project/c-project/initialisation.c
+	<stdio.h>
+	<stdbool.h>
+	<stdlib.h>
+
+1608599258 /home/nadhem/Desktop/C-Project/c-project/affichage.c
+	"initialisation.c"
+
