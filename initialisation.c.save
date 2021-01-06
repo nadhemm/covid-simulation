@@ -87,7 +87,7 @@ void initialiser_matrice(struct Case matrice[N][M], struct Case* lambdas[N*M], i
                 continue;
             }
             probability -= PROBA_LAMBDA;
-
+            
             if (probability < PROBA_SOIGNANT){
                 flag_virus(&matrice[i][j], false);
                 set_soignant(&matrice[i][j].bonhomme);

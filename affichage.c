@@ -1,4 +1,5 @@
 #include "initialisation.c"
+#define CLEAR "\033[H\033[J"
 
 
 const int DEFAULT_COLOR = 0;
@@ -60,16 +61,24 @@ void afficher_case(struct Case kase){ // case is a keyword
     if (kase.bonhomme != NULL)
         afficher_bonhomme(kase.bonhomme);
     else
-        printf("$");
+        if (kase.contaminee_pour_x_prochains_tours > 0)
+            printf_colored("V", RED_COLOR);
+        else
+            printf(" ");
 }
 
-void afficher_matrice(struct Case matrice[N][M], int n, int m){
-    for(int i=0; i<n; ++i){
-        for(int j=0; j<m; ++j){
-//            printf("\n%d, %d", i, j);
+void afficher_matrice(struct Case matrice[N][M]){
+    for(int i=0; i<N; ++i){
+        for(int j=0; j<M; ++j)
             afficher_case(matrice[i][j]);
-        }
         printf("\n");
     }
 
+}
+
+void simuler_tour(int etape, struct Case matrice[N][M]){
+    printf(CLEAR);
+    printf("Etape numero %d:\n", etape);
+    afficher_matrice(matrice);
+    sleep(1);
 }
