@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nadhem/Desktop/C-Project/c-project/affichage.c
+initialisation.c
+/home/nadhem/Desktop/C-Project/c-project/initialisation.c
+
+/home/nadhem/Desktop/C-Project/c-project/initialisation.c
+stdio.h
+-
+stdbool.h
+-
+stdlib.h
+-
+
+/home/nadhem/Desktop/C-Project/c-project/main.c
+stdio.h
+-
+stdbool.h
+-
+simulation.c
+/home/nadhem/Desktop/C-Project/c-project/simulation.c
+
+/home/nadhem/Desktop/C-Project/c-project/simulation.c
+affichage.c
+/home/nadhem/Desktop/C-Project/c-project/affichage.c
+

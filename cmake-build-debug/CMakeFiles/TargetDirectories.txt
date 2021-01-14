@@ -1,0 +1,3 @@
+/home/nadhem/Desktop/C-Project/c-project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/nadhem/Desktop/C-Project/c-project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/nadhem/Desktop/C-Project/c-project/cmake-build-debug/CMakeFiles/c_project.dir

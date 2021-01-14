@@ -35,6 +35,9 @@
 			<Option compilerVar="CC" />
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="bin/Debug/initialisation.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="initialisation.c">
 			<Option compilerVar="CC" />
 			<Option target="&lt;{~None~}&gt;" />

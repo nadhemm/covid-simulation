@@ -1,20 +1,20 @@
 # depslib dependency file v1.0
-1609896082 source:/home/nadhem/Desktop/C-Project/c-project/main.c
+1610654990 source:/home/nadhem/Desktop/C-Project/c-project/main.c
 	<stdio.h>
 	<stdbool.h>
 	"simulation.c"
 
-1609897149 /home/nadhem/Desktop/C-Project/c-project/initialisation.c
+1609903792 /home/nadhem/Desktop/C-Project/c-project/initialisation.c
 	<stdio.h>
 	<stdbool.h>
 	<stdlib.h>
 
-1609547242 /home/nadhem/Desktop/C-Project/c-project/affichage.c
+1609902603 /home/nadhem/Desktop/C-Project/c-project/affichage.c
 	"initialisation.c"
 
 1608866069 source:/home/nadhem/Desktop/C-Project/c-project/simulation.c
 	"affichage.c"
 
-1609897164 /home/nadhem/Desktop/C-Project/c-project/simulation.c
+1610655442 /home/nadhem/Desktop/C-Project/c-project/simulation.c
 	"affichage.c"
 
