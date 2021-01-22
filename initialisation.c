@@ -2,8 +2,8 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-int N = 10;
-int M = 10;
+int N = 20;
+int M = 20;
 
 // Sum of probabilities shouldn't exceed 1
 const float PROBA_LAMBDA = 0.2;
