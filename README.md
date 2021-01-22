@@ -1,5 +1,7 @@
 # covid-simulation
-![](simulation.gif)
+<p align="center">
+  <img src="simulation.gif" alt="simulation" />
+</p><br>
 The project is a simulation of the spread of corona virus.
 Each cell of the grid can either contain:
 - A virus
